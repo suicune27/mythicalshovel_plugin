@@ -1,0 +1,20 @@
+{
+   "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "popup.html",
+      "default_title": "MYTHICAL SHOVEL PLUGIN"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "autoclick.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Automatically clicks approve button for popup!",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxjz2y4OQVw18kShMvTkEvpm7QyB2pW25TvJbO83AHlLaaZYQYHmk7hfETkTITT6SwZkkipVKWkZXeJ7sdLNP9mcGJKFDRm8Cm/8y6kHccEv1k8r2yg8goudnpRGomUt26Kxh+HfOw/SKjVvrQY7VHifB8ux0uUCBqXIjc0rqxHf2TM9TUVevR9+Ngsemr1yrXjuqnP4Kan8hBvic7+JV1NGLbyeW/hKgdxYT6ARSl5KGVbnv/OBuQ8uTCRkJQcQjca9VmcTp0HTIY2neR7lmYCm357abvo98E88CdwP/5tIN5Q7KeeGWyEH2DOH49rRXuX69anFBUtvEpTP+dJVK4wIDAQAB",
+   "manifest_version": 2,
+   "name": "MYTHICAL SHOVEL PLUGIN",
+   "permissions": [ "\u003Call_urls>" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.0.0.2"
+}
